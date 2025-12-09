@@ -1,2 +1,2 @@
 # First-Codex-Project
-Expiramenting with ChatGPT/OpenAI Codex
+Experimenting with ChatGPT/OpenAI Codex
