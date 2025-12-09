@@ -1,0 +1,76 @@
+"""Schema template for Influencer RFP parsing outputs."""
+
+SCHEMA_TEMPLATE = {
+    "meta": {
+        "rfp_title": "",
+        "brand": "",
+        "ip_or_game_title": "",
+        "publisher": "",
+        "date_received": "",
+        "rfp_source": "",
+    },
+    "campaign_overview": {
+        "campaign_name": "",
+        "primary_objective": "",
+        "secondary_objectives": [],
+        "campaign_tone_keywords": [],
+        "key_mandatory_messages": [],
+        "key_mandatory_no_gos": [],
+    },
+    "audience_and_markets": {
+        "primary_audience_description": "",
+        "secondary_audience_description": "",
+        "regions_markets": [],
+        "age_targets": "",
+        "platform_audiences_noted": [],
+    },
+    "messaging_and_strategy": {
+        "core_messaging_pillars": [],
+        "positioning_summary": "",
+        "competitive_context": "",
+        "must_reference_heritage": False,
+        "notes_on_lore_or_story": "",
+    },
+    "phasing_and_timing": {
+        "overall_timeline": "",
+        "phases": [],
+        "key_dates": [],
+        "required_tentpole_moments": [],
+    },
+    "budget_and_spend": {
+        "total_budget": None,
+        "budget_currency": "",
+        "budget_tiers": [],
+        "phase_split_percentage": {},
+        "platform_split_percentage": {},
+        "agency_fee_model": "",
+        "notes_on_scope_vs_budget": "",
+    },
+    "platform_and_content_strategy": {
+        "requested_platforms": [],
+        "suggested_platforms": [],
+        "content_formats_requested": [],
+        "content_thematic_notes": [],
+        "whitelisting_or_paid_amp": "",
+        "ugc_or_hashtag_components": "",
+    },
+    "talent_and_safeguards": {
+        "talent_archetypes": [],
+        "size_tiers": [],
+        "regions_for_talent": [],
+        "brand_safety_requirements": [],
+        "disclosure_requirements": [],
+        "celebrity_or_tentpole_talent_notes": "",
+    },
+    "logistics_and_requirements": {
+        "deliverables_requested": [],
+        "approval_process_notes": "",
+        "legal_or_compliance_notes": "",
+        "reporting_expectations": "",
+        "measurement_kpis": [],
+    },
+    "missing_or_unclear": {
+        "fields_missing": [],
+        "fields_partial": [],
+    },
+}
